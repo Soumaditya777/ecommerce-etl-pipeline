@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated pipeline outputs
+output/
+logs/
+spark-warehouse/
+metastore_db/
+
+# IDEs and notebooks
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Local backups and archives
+*.backup_*
+project_source.zip
